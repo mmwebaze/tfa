@@ -1,0 +1,17 @@
+{
+    "name": "drupal/tfa",
+    "type": "drupal-module",
+    "description": "Pluggable provider of two factor authentication for Drupal",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/encrypt": "~3.0"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9"
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+name: TFA Test Plugins
+type: module
+description: For testing core TFA APIs
+core: 8.x
+package: System
+dependencies:
+  - tfa:tfa
